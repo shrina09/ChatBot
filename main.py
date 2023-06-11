@@ -71,6 +71,7 @@ except:
 
 
 # tensorflow.reset_default_graph()
+# old version that has been deprecated
 tensorflow.compat.v1.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(training[0])])
